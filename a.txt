@@ -4,3 +4,4 @@ azxvf
 abcdefg
 haha
 hub update
+local update2
