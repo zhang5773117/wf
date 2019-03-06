@@ -9,6 +9,7 @@ import org.apache.ibatis.annotations.Mapper;
 public interface QgGoodsMapper {
 	//修改哈
 	public QgGoods getQgGoodsById(@Param(value = "id") Long id)throws Exception;
+	//李四
 	//张三
 	public List<QgGoods>	getQgGoodsListByMap(Map<String,Object> param)throws Exception;
 
