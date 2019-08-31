@@ -13,7 +13,7 @@ eureka:
 
 feign:
   hystrix:
-    enabled: true
+    enabled: false
 
 myorderprovider:
   ribbon:
