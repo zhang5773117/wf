@@ -1,5 +1,5 @@
 server:
-  port: 8004
+  port: 8005
 spring:
   application:
     name: myuserconsumer
@@ -8,7 +8,7 @@ eureka:
     service-url:
       defaultZone: http://root:ok@localhost:7001/eureka/ #,http://root:ok@localhost:7002/eureka/,http://root:ok@localhost:7003/eureka/
   instance:
-    instance-id: myuserconsumer8004
+    instance-id: myuserconsumer8005
     prefer-ip-address: true
 
 feign:
