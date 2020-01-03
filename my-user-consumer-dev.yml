@@ -20,3 +20,4 @@ order-provider:
     MaxAutoRetries: 1 #对当前实例的重试次数
     MaxAutoRetriesNextServer: 1 #切换实例的重试次数
 #    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule
+token: haha
