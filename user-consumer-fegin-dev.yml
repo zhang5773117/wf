@@ -1,17 +1,1 @@
-server:
-  port: 9002
-  rabbitmq:
-    host: localhost
-    port: 5672
-    username: guest
-    password: guest
-eureka:
-  client:
-    service-url:
-      defaultZone: http://root:ok@localhost:7001/eureka/
-  instance:
-    prefer-ip-address: true #显示浏览器中的状态栏显示ip
-feign:
-  hystrix:
-    enabled: true
 name: guanyu
